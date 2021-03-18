@@ -1,0 +1,16 @@
+{
+  "name": "nissan_store",
+  "version": "1.0.0",
+  "description": "Proyecto de tienda online para Nissan.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "boostrap"
+  ],
+  "author": "Carlos Dugarte <contacto@carlosdugarte.com>",
+  "license": "MIT"
+}
