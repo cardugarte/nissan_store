@@ -1,0 +1,33 @@
+.hero__container {
+  height: 100vh;
+  background-image: url("../images/HeroBanner_Desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__back {
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0) 60%
+  );
+}
+
+.hero__container .hero__group {
+  width: 450px;
+  margin: 60px 60px;
+}
+
+.hero__title {
+  color: crimson;
+  font-size: 60px;
+}
+
+.hero__text {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 40px;
+}
