@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
-import Home from './pages/home';
+import App from './components/App';
 
 const container = document.getElementById('root');
 
-ReactDOM.render( <Home />, container);
+ReactDOM.render( <App />, container);

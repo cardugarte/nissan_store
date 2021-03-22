@@ -16,7 +16,7 @@ class Home extends React.Component {
               <Navbar />
             </div>
             <div className="hero__group">
-              <h1 className="hero__title font-weight-bold">Ahora es online</h1>
+              <h1 className="hero__title font-weight-bold">AHORA ES ONLINE</h1>
               <p className="hero__text">Con Nissan Store podés acceder a tu nuevo 0km con todos los servicios asociados desde la comodidad de tu sofá <br/> <span>Probanos!</span></p>
               <Button />
             </div>

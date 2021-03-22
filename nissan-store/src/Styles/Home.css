@@ -17,12 +17,12 @@
 
 .hero__container .hero__group {
   width: 450px;
-  margin: 60px 60px;
+  margin: 80px 60px;
 }
 
 .hero__title {
   color: crimson;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .hero__text {

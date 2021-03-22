@@ -47,7 +47,7 @@ class Footer extends React.Component {
           </div>
         </div>
         <div className="footer__age">
-          <p className="container">© 2021 SIMPLICAR. Todos los derechos reservados</p>
+        <p className="container">© 2021 SIMPLICAR. Todos los derechos reservados</p>
         </div>
       </footer>
     )

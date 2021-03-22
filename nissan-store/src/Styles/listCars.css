@@ -1,0 +1,49 @@
+.list__container {
+  padding: 40px 90px;
+  background-color: darkgrey;
+  color: #fff;
+}
+
+.list__title {
+  font-size: 50px;
+}
+
+.list__counter {
+  margin-top: 15px;
+  color: grey;
+  font-size: 12px;
+}
+
+.btn-outline-primary {
+  padding: 12px 8px;
+  margin: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #121010;
+  border-color: lightgrey;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.dropdown-toggle:active {
+  color: #fff !important;
+  background-color: crimson !important;
+  border-color: crimson !important;
+  box-shadow: 0 0 0 0.1rem rgb(0 0 0 / 0%) !important;
+}
+
+.filter__text {
+  color: gray;
+  font-size: 11px;
+}
+
+.filter__order {
+  margin-left: -20px;
+  border-color: transparent !important;
+}
+
+.list__terms {
+  color: gray;
+  font-size: 12px;
+}
