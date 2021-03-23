@@ -27,3 +27,7 @@
   color: crimson;
   transform: scale(1.03);
 }
+
+.navbar__menuburger {
+  display: none;
+}

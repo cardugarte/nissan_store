@@ -6,6 +6,7 @@ import { Twitter } from 'react-bootstrap-icons';
 import { Youtube } from 'react-bootstrap-icons';
 import { InfoCircle } from 'react-bootstrap-icons';
 import '../Styles/Footer.css';
+import '../Styles/responsive/FooterResponsive.css';
 
 class Footer extends React.Component {
   render() {
@@ -34,15 +35,15 @@ class Footer extends React.Component {
               <li><a href="/">Políticas de Privacidad</a></li>
             </ul>
           </div>
-          <div className="">
+          <div className="footer__social--container">
             <ul className="list-unstyled">
               <li><a href="/">NISSAN SOCIAL</a></li>
             </ul>
-            <ul className="list-unstyled d-flex">
-            <li><a href="/"><Facebook color="white" size={15} /></a></li>
-            <li><a href="/"><Instagram color="white" size={15} /></a></li>
-            <li><a href="/"><Twitter color="white" size={15} /></a></li>
-            <li><a href="/"><Youtube color="white" size={15} /></a></li>
+            <ul className="footer__social--list list-unstyled d-flex">
+            <li><a href="/" target="_blank"><Facebook color="white" size={15} /></a></li>
+            <li><a href="/" target="_blank"><Instagram color="white" size={15} /></a></li>
+            <li><a href="/" target="_blank"><Twitter color="white" size={15} /></a></li>
+            <li><a href="/" target="_blank"><Youtube color="white" size={15} /></a></li>
             </ul>
           </div>
         </div>

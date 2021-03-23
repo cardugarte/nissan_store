@@ -1,0 +1,37 @@
+@media screen and (max-width: 425px) {
+  .hero__container {
+    width: 100%;
+  }
+
+  .hero__back {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .hero__container .hero__group {
+    width: 100%;
+    text-align: left;
+    margin: 10px auto;
+  }
+
+  .hero__back .hero__title {
+    text-shadow: 1px 1px 2px #121010;
+  }
+
+  .hero__back .hero__text {
+    width: 80%;
+    margin: 50px 0;
+  }
+}
+
+@media screen and (width: 768px) {
+  .hero__back .hero__text {
+    width: 60%;
+    margin: 50px 0;
+  }
+}

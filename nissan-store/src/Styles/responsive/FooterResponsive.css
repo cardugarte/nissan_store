@@ -1,0 +1,23 @@
+@media screen and (max-width: 425px) {
+  .container h2,
+  .container h2 span {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .footer__container--list {
+    display: block !important;
+  }
+
+  .footer__social--container {
+    display: block;
+  }
+
+  .footer__social--list {
+    justify-content: space-around;
+  }
+
+  .footer__age p {
+    font-size: 14px;
+  }
+}

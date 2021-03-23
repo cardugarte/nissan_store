@@ -1,0 +1,40 @@
+@media screen and (max-width: 425px) {
+  .list__container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .list__title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .list__filter--container {
+    display: block !important;
+    width: 100%;
+  }
+
+  .list__filter--right {
+    text-align: center;
+  }
+
+  .filter__container--left button,
+  .list__filter--right button {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .list__terms {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .list__title {
+    font-size: 30px;
+  }
+
+  .list__terms {
+    text-align: justify;
+  }
+}

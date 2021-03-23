@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import GridCars from '../components/GridCars';
 import '../Styles/listCars.css';
+import '../Styles/responsive/ListCarsResponsive.css';
 
 class listCars extends React.Component {
   render() {
@@ -11,18 +12,18 @@ class listCars extends React.Component {
       <div>
         <Navbar />
         <div className="list__container">
-        <h1 className="list__title font-weight-bold">¿CUÁL VA A SER TU PRÓXIMO NISSAN?</h1>
+        <h1 className="list__title font-weight-bold">{"¿Cuál va a ser tu próximo Nissan?".toUpperCase()}</h1>
         </div>
-          <p className="list__counter container">7 VEHÍCULOS</p>
+        <p className="list__counter container">{`7 ${"vehículos".toUpperCase()}`}</p>
         <div className="list__filter--container container d-flex justify-content-between">
           <div className="filter__container--left">
-            <button className="filter__bodywork btn btn-outline-primary dropdown-toggle">CARROCERÍA</button>
-            <button className="filter__model btn btn-outline-primary dropdown-toggle">MODELO</button>
-            <button className="filter__price btn btn-outline-primary dropdown-toggle">PRECIO</button>
+            <button className="filter__bodywork btn btn-outline-primary dropdown-toggle">{"Carrosería".toUpperCase()}</button>
+            <button className="filter__model btn btn-outline-primary dropdown-toggle">{"Modelo".toUpperCase()}</button>
+            <button className="filter__price btn btn-outline-primary dropdown-toggle">{"Precio".toUpperCase()}</button>
           </div>
           <div className="list__filter--right">
-            <span className="filter__text">ORDENAR:</span>
-            <button className="filter__order btn btn-outline-primary dropdown-toggle">PRECIO MÁS BAJO</button>
+            <span className="filter__text">{"Ordenar:".toUpperCase()}</span>
+            <button className="filter__order btn btn-outline-primary dropdown-toggle">{"Precio más bajo".toUpperCase()}</button>
           </div>
         </div>
         <GridCars />

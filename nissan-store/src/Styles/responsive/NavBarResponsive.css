@@ -1,0 +1,13 @@
+@media screen and (max-width: 425px) {
+  .navbar__content--items {
+    width: 100%;
+    display: none !important;
+  }
+
+  .navbar__menuburger {
+    display: block;
+    width: 100%;
+    text-align: end;
+    margin-top: 8px;
+  }
+}

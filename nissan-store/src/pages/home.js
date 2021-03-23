@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Button from '../components/Button.js';
 import Footer from '../components/Footer';
 import '../Styles/Home.css';
+import '../Styles/responsive/HomeResponsive.css';
 
 
 class Home extends React.Component {
@@ -17,7 +18,7 @@ class Home extends React.Component {
             </div>
             <div className="hero__group">
               <h1 className="hero__title font-weight-bold">AHORA ES ONLINE</h1>
-              <p className="hero__text">Con Nissan Store podés acceder a tu nuevo 0km con todos los servicios asociados desde la comodidad de tu sofá <br/> <span>Probanos!</span></p>
+              <p className="hero__text">Con Nissan Store podés acceder a tu nuevo 0km con todos los servicios asociados desde la comodidad de tu sofá <br/> Probanos!</p>
               <Button />
             </div>
           </div>

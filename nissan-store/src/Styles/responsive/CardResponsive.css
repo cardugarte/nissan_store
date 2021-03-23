@@ -1,0 +1,28 @@
+@media screen and (max-width: 425px) {
+  .row {
+    display: block;
+    padding: 15px;
+  }
+
+  .card__item {
+    padding: 10px;
+  }
+  .col-4 {
+    flex: initial;
+    max-width: initial;
+  }
+
+  @media screen and (min-width: 768px) {
+    .row {
+      padding: 0;
+    }
+    .card__img {
+      width: 100%;
+    }
+
+    .col-4 {
+      flex: initial;
+      max-width: initial;
+    }
+  }
+}
