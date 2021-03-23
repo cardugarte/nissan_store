@@ -1,0 +1,40 @@
+.card__item {
+  padding: 30px;
+}
+
+.card__title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.card__price--container,
+.card__details--container {
+  padding: 15px;
+  border-top: 1px solid lightgrey;
+}
+
+.card__price {
+  color: grey;
+  font-size: 12px;
+}
+
+.card__amount {
+  font-weight: bold;
+}
+
+.card__link {
+  text-decoration: none;
+  color: crimson;
+  font-weight: bold;
+}
+
+.card__link:hover {
+  text-decoration: none;
+  color: #dc142f;
+}
+
+.card__text {
+  color: lightgrey;
+  font-size: 13px;
+  text-align: justify;
+}
