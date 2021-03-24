@@ -1,3 +1,5 @@
-Preguntas:
+Proyecto de Ecommerce de Nisan
 
-El searchBar debe funcionar?
+Este proyecto es realizado con React.
+
+Tiene como contenido una página principal y una página con un grid de autos disponibles desde una API.
