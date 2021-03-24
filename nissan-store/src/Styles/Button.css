@@ -7,12 +7,17 @@
   transition: all 0.5s ease;
 }
 
-.btn-primary:hover {
-  background-color: #dc142f;
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #dc142f !important;
+  border-color: transparent !important;
+  box-shadow: none;
   transform: scale(1.03);
 }
 
 span {
   margin-right: 30px;
   font-size: 14px;
+  vertical-align: middle;
 }

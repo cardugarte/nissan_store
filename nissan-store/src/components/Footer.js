@@ -18,26 +18,26 @@ class Footer extends React.Component {
         <div className="footer__container--list container d-flex justify-content-between">
           <div>
             <ul className="list-unstyled">
-              <li><a href="/">COTIZACIÓN DE VEHÍCULOS</a></li>
-              <li><a href="/"><InfoCircle color="white" size={14} /><span className="footer__info--text">Información legal</span></a></li>
+              <li><a href="/" target="_blank">{"Cotización de vehículos".toUpperCase()}</a></li>
+              <li><a href="/" target="_blank"><InfoCircle color="white" size={14} /><span className="footer__info--text">Información legal</span></a></li>
             </ul>
           </div>
           <div className="d-flex">
             <ul className="list-unstyled">
-              <li><a href="/">RALITOR S.A</a></li>
-              <li><a href="/">nissan.com.uy</a></li>
-              <li><a href="/">Políticas de Cookies</a></li>
+              <li><a href="/" target="_blank">{"Ralitor s.a".toUpperCase()}</a></li>
+              <li><a href="https://nissan.com.uy">nissan.com.uy</a></li>
+              <li><a href="/" target="_blank">Políticas de Cookies</a></li>
             </ul>
           </div>
           <div>
             <ul className="list-unstyled">
-              <li><a href="/">AYUDA AL CLIENTE</a></li>
-              <li><a href="/">Políticas de Privacidad</a></li>
+              <li><a href="/" target="_blank">{"Ayuda al cliente".toUpperCase()}</a></li>
+              <li><a href="/" target="_blank">Políticas de Privacidad</a></li>
             </ul>
           </div>
           <div className="footer__social--container">
             <ul className="list-unstyled">
-              <li><a href="/">NISSAN SOCIAL</a></li>
+              <li><a href="/" target="_blank">{"Nissan Social".toUpperCase()}</a></li>
             </ul>
             <ul className="footer__social--list list-unstyled d-flex">
             <li><a href="/" target="_blank"><Facebook color="white" size={15} /></a></li>
@@ -48,7 +48,7 @@ class Footer extends React.Component {
           </div>
         </div>
         <div className="footer__age">
-        <p className="container">© 2021 SIMPLICAR. Todos los derechos reservados</p>
+        <p className="container">© 2021 {"Simplicar".toUpperCase()}. Todos los derechos reservados</p>
         </div>
       </footer>
     )

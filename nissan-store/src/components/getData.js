@@ -1,8 +1,9 @@
 import React from 'react';
 
 import Card from './Card';
+import PageLoading from './PageLoading';
 
-class GridCars extends React.Component {
+class GetData extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -27,7 +28,6 @@ class GridCars extends React.Component {
         },
       })
       const data = await response.json();
-      console.log(data);
       this.setState({
         loading: false,
         data: data,
@@ -42,7 +42,7 @@ class GridCars extends React.Component {
 
   render() {
     if(this.state.loading) {
-      return 'Loading...'
+      return <PageLoading />
     }
     return (
       <React.Fragment>
@@ -52,4 +52,4 @@ class GridCars extends React.Component {
   }
 }
 
-export default GridCars;
+export default GetData;
